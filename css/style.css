@@ -117,11 +117,13 @@ header {
 
 .main-nav ul {
 	float: left;
-	font-size: 0px;
+	/*font-size: 0px;*/
 }
 
 .main-nav li {
 	display: inline-block;
+	position: relative;
+	margin-right: -2px;
 }
 
 .main-nav li a {
@@ -144,6 +146,38 @@ header {
 .main-nav li a.current {
 	background: #ffffff;
 	box-shadow: inset 0 -3px #B31D27;
+}
+
+.main-nav .li1-list {
+	position: absolute;
+	top: 42px;
+	left: 0;
+	z-index: 2000;
+	display: none;
+	width: 910px;
+	height: 300px;
+	padding: 15px;
+	background: #ccc;
+}
+
+.main-nav .li1-list .col {
+	float: left;
+	width: 33%;
+}
+
+.main-nav .li1-list .col-elem-title {
+	font: 700 1em/50px Verdana;
+	color: #000;
+}
+
+.main-nav .li1-list .col-elem {
+	font: 1em/1.2em Verdana;
+	color: #000;
+}
+
+.main-nav .li1:hover .li1-list {
+	display: block;
+	transition: 0.3s;
 }
 
 .user-block {
@@ -241,7 +275,7 @@ header {
 .main-header h1 {
 	margin-top: 21px;
 	margin-bottom: 10px;
-	font-weight: 400;
+	font-weight: 700;
 	font-family: 'Open Sans Condensed', Arial, sans-serif;
 }
 
@@ -464,10 +498,43 @@ header {
 }
 
 .paginator-title {
-	margin: 5px 0px 15px 0px;
+	margin: 5px 0px 15px -20px;
   padding: 1px 0;
   font: 400 20px Tahoma, Verdana, Arial, sans-serif;
   color: #323232;
+}
+
+.paginator {
+	margin-bottom: 15px;
+	margin-left: -20px;
+	font-size: 0px;
+}
+
+.paginator li {
+	display: inline;
+}
+
+.paginator .page {
+	display: inline-block;
+	margin-right: 2px;
+	padding: 6px 9px 5px;
+	font-size: 14px;
+	line-height: 13px;
+	text-decoration: none;
+	color: #ffffff;
+	background: #555555;
+}
+
+.paginator .page:hover {
+	background: #3279bb;
+}
+
+.paginator .current {
+	background: #3279bb;
+}
+
+.paginator .more-pages:hover {
+	background: #555555;
 }
 
 .sidebar {
@@ -479,7 +546,6 @@ header {
 
 footer a{
 	color: #a8c5ff;
-	text-decoration: none;
 }
 
 .top-footer {
@@ -492,6 +558,7 @@ footer a{
 	margin-bottom: 8px;
 	font-size: 18px;
 	color: #ffffff;
+	text-decoration: none;
 }
 
 footer .column1,
