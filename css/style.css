@@ -124,9 +124,10 @@ header {
 	display: inline-block;
 	position: relative;
 	margin-right: -2px;
+	/*font-family: Tahoma;*/
 }
 
-.main-nav li a {
+.main-nav li > a {
 	display: inline-block;
 	padding: 10px 20px 15px;
 	font-size: 14px;
@@ -151,13 +152,13 @@ header {
 .main-nav .li1-list {
 	position: absolute;
 	top: 42px;
-	left: 0;
+	left: -1000px;
 	z-index: 2000;
-	display: none;
 	width: 910px;
-	height: 300px;
 	padding: 15px;
-	background: #ccc;
+	opacity: 0;
+	background: #ffffff;
+	border: 1px solid #000;
 }
 
 .main-nav .li1-list .col {
@@ -166,18 +167,66 @@ header {
 }
 
 .main-nav .li1-list .col-elem-title {
-	font: 700 1em/50px Verdana;
-	color: #000;
+	font: 400 18px/50px Verdana;
+	color: #354f71;
+	border-bottom: 1px solid #f1f2f4;
 }
 
-.main-nav .li1-list .col-elem {
-	font: 1em/1.2em Verdana;
-	color: #000;
+.main-nav .li1-list .col-elem-link {
+	position: relative;
+	display: inline-block;
+	width: 225px;
+	padding: 8px 10px 8px 50px;
+	font: 14px Tahoma;
+	text-decoration: none;
+	color: #354f71;
+	background: transparent;
+	box-shadow: inset 0 -3px transparent;
+}
+
+.main-nav .li1-list .col-elem-link:hover {
+	background: #f2f3f5;
+}
+
+.main-nav .li1-list .col-elem-link-bold {
+	font-weight: 700;
+}
+
+.main-nav .li1-list .col-elem-link-small {
+	font-size: 11px;
+	color: #8a9bb8;
+}
+
+.col-elem-link:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 8px;
+  width: 33px;
+  height: 30px;
+	background: url(../images/icons-menu_new.png) no-repeat 0 0;
+}
+
+.col-elem-link1:before {
+	background-position: 0 0;
+}
+
+.col-elem-link2:before {
+	background-position: 0 -240px;
+}
+
+.col-elem-link3:before {
+	background-position: 0 -338px;
+}
+
+.col-elem-link4:before {
+	background-position: 0 -374px;
 }
 
 .main-nav .li1:hover .li1-list {
-	display: block;
-	transition: 0.3s;
+	left: 0;
+	opacity: 1;
+	transition: 0.15s;
 }
 
 .user-block {
