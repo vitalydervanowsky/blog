@@ -649,7 +649,8 @@ header {
 	left: 2px;
 	width: 0;
 	height: 0;
-	transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+	        transform: rotate(225deg);
 	border: 5px solid transparent;
 	border-left: 5px solid #768fa5;
 }
@@ -747,6 +748,7 @@ header {
 	font: 12px/30px Arial,sans-serif;
 	color: #ffffff;
   background-color: #4a68ac;
+  background-image: -webkit-linear-gradient(top, #5574b8, #3c589d);
   background-image: linear-gradient(to bottom, #5574b8, #3c589d);
 	border: none;
 	border-radius: 4px;
@@ -754,6 +756,7 @@ header {
 
 .sidebar__subscribe button:hover {
   background-color: #5579c4;
+  background-image: -webkit-linear-gradient(top, #6488d1, #4667b6);
   background-image: linear-gradient(to bottom, #6488d1, #4667b6);
 	cursor: pointer;
 }
