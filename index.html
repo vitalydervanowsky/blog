@@ -2,159 +2,184 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Блог TravelLine - Lorem ipsum dolor sit amet, consectetur adipisicing elit.</title>
+	<title>Блог TravelLine – Советы и новости для успешных отельеров. Помогаем повысить онлайн-продажи в гостинице</title>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
-	<header>
+	<header class="main-header">
 		<div class="container">
 			<div class="top-header clearfix">
 				<a class="logo" href="#"><img src="images/logo.png" width="229" height="32" alt="TravelLine"></a>
 				<div class="slogan">Стандарт онлайн-продаж успешных отельеров</div>
 				<div class="scolkovo"><a href="#"><img src="images/scolkovo.png" width="60" height="76" alt=""></a></div>
 				<div class="support-phone">
-					<span class="support-phone-close"></span>
 					<div class="support-phone-visible">
-						<a href="tel:88005552030">8 800 555-20-30</a><br>
-						Бесплатно <span>по России</span>
+						<div class="support-phone-conainer">
+							<a class="support-phone-link" href="tel:88005552030">8 800 555-20-30</a><br>
+							Бесплатно <span class="support-phone-in-russia">по России</span>
+						</div>
 					</div>
-					<div class="support-phone-free">
-						<p><span>Бесплатные номера</span><br>
-						Россия: <b>+7 800 555-20-30</b><br>
-						Украина: <b>+380 80 021-88-87</b><br>
-						Беларусь: <b>8 820 00-73-00-33</b><br>
-						Казахстан: <b>8 800 333-71-15</b></p>
-						<p><span>Офисы</span><br>
-						Москва: <b>+7 499 703-34-80</b><br>
-						Киев: <b>+380 44 585-88-87</b><br>
-						Минск: <b>+375 17 203-51-31</b></p>
+					<div class="support-phone-visually-hidden">
+                        <div class="support-phone-conainer">
+                        	<span class="support-phone-close"></span>
+                        	<a class="support-phone-link" href="tel:88005552030">8 800 555-20-30</a><br>
+                        	Бесплатно <span class="support-phone-in-russia">по России</span>
+                        </div>
+                        <ul class="support-phone-list">
+                        	<li class="support-phone-item-gray">Бесплатные номера</li>
+                        	<li class="support-phone-item-tel">Россия: <b>+7 800 555-20-30</b></li>
+                        	<li class="support-phone-item-tel">Украина: <b>+380 80 021-88-87</b></li>
+                        	<li class="support-phone-item-tel">Беларусь: <b>8 820 00-73-00-33</b></li>
+                        	<li class="support-phone-item-tel">Казахстан: <b>8 800 333-71-15</b></li>
+                        	<li class="support-phone-item-gray">Офисы</li>
+                        	<li class="support-phone-item-tel">Москва: <b>+7 499 703-34-80</b></li>
+                        	<li class="support-phone-item-tel">Киев: <b>+380 44 585-88-87</b></li>
+                        	<li class="support-phone-item-tel">Минск: <b>+375 17 203-51-31</b></li>
+                        </ul>
 					</div>
 				</div>
-				<div class=""><a class="button" href="#">Каталог гостиниц</a></div>
+				<div class="partner-hotels"><a class="partner-hotels-link" href="#">Каталог гостиниц</a></div>
 			</div>
 			<nav class="main-nav clearfix">
-				<ul>
-					<li class="li1">
-						<a class="" href="#">Продукты и услуги</a>
-						<div class="li1-list">
-							<div class="col">
-								<div class="col-elem-title">Управление продажами</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link1" href="#">TL: <span class="col-elem-link-bold">Отель</span><br>
-									<span class="col-elem-link-small">Модуль онлайн-бронирования для сайта</span></a>
-								</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link2" href="#">TL: <span class="col-elem-link-bold">Channel Manager</span><br>
-									<span class="col-elem-link-small">Управление каналами продаж</span></a>
-								</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link3" href="#">TL: <span class="col-elem-link-bold">WebPMS</span><br>
-									<span class="col-elem-link-small">Простая АСУ для мини-отелей и хостелов</span></a>
-								</div>
-								<div class="col-elem-title">Управление репутацией</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link4" href="#">TL: <span class="col-elem-link-bold">Reputation</span><br>
-									<span class="col-elem-link-small">Управление онлайн-репутацией</span></a>
-								</div>
-							</div>
-							<div class="col">
-								<div class="col-elem-title">Разработка сайтов</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link5" href="#">Эксклюзивные сайты<br>
-									<span class="col-elem-link-small">Интернет-ресурс, который продает номера</span></a>
-								</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link6" href="#">Типовые сайты «TL: Старт»<br>
-									<span class="col-elem-link-small">Продающий сайт за 7 дней</span></a>
-								</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link7" href="#">Мобильные сайты<br>
-									<span class="col-elem-link-small">«Легкий» сайт для мобильных устройств</span></a>
-								</div>
-								<div class="col-elem-title">Анализ цен конкурентов</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link8" href="#">TL: Rate Shopper<br>
-									<span class="col-elem-link-small">Анализ цен конкурентов</span></a>
-								</div>
-							</div>
-							<div class="col">
-								<div class="col-elem-title">Аудит и сопровождение</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link9" href="#">TL: Аналитика<br>
-									<span class="col-elem-link-small">Система сбора и анализа статистики продаж</span></a>
-								</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link10" href="#">Профессиональный аудит<br>
-									<span class="col-elem-link-small">Анализ ошибок вашего сайта</span></a>
-								</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link11" href="#">Сопровождение сайта<br>
-									<span class="col-elem-link-small">Техническая поддержка вашего ресурса</span></a>
-								</div>
-								<div class="col-elem-title">Визовая поддержка</div>
-								<div class="col-elem">
-									<a class="col-elem-link col-elem-link12" href="#">Сервис <span class="col-elem-link-bold">iVisa</span><br>
-									<span class="col-elem-link-small">Визовая поддержка для ваших гостей</span></a>
-								</div>
-							</div>
+                <ul class="main-nav-list">
+                    <li class="main-nav-item main-nav-item1">
+                        <a href="#" class="main-nav-link">Продукты и услуги</a>
+                        <div class="main-nav-item1-list clearfix">
+                            <div class="main-nav-item1-col main-nav-item1-col1">
+                                <h2 class="main-nav-item1-title">Управление продажами</h2>
+                                <ul class="selling-manage-list">
+                                    <li class="selling-manage-item">
+                                        <a href="#" class="main-nav-item1-list-link">TL: <span class="main-nav-item1-bold">Отель</span><br>
+                                        <span class="main-nav-item1-small">Модуль онлайн-бронирования для сайта</span></a>
+                                    </li>
+                                    <li class="selling-manage-item">
+                                        <a href="#" class="main-nav-item1-list-link">TL: <span class="main-nav-item1-bold">Channel Manager</span><br>
+                                        <span class="main-nav-item1-small">Управление каналами продаж</span></a>
+                                    </li>
+                                    <li class="selling-manage-item">
+                                        <a href="#" class="main-nav-item1-list-link">TL: <span class="main-nav-item1-bold">WebPMS</span><br>
+                                        <span class="main-nav-item1-small">Простая АСУ для мини-отелей и хостелов</span></a>
+                                    </li>
+                                </ul>
+                                <h2 class="main-nav-item1-title">Управление репутацией</h2>
+                                <ul class="reputation-manage-list">
+                                    <li class="reputation-manage-item">
+                                        <a href="#" class="main-nav-item1-list-link">TL: <span class="main-nav-item1-bold">Reputation</span><br>
+                                        <span class="main-nav-item1-small">Управление онлайн-репутацией</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main-nav-item1-col main-nav-item1-col2">
+                                <h2 class="main-nav-item1-title">Разработка сайтов</h2>
+                                <ul class="site-developement-list">
+                                    <li class="site-developement-item">
+                                        <a href="#" class="main-nav-item1-list-link">Эксклюзивные сайты<br>
+                                        <span class="main-nav-item1-small">Интернет-ресурс, который продает номера</span></a>
+                                    </li>
+                                    <li class="site-developement-item">
+                                        <a href="#" class="main-nav-item1-list-link">Типовые сайты «TL: Старт»<br>
+                                        <span class="main-nav-item1-small">Продающий сайт за 7 дней</span></a>
+                                    </li>
+                                    <li class="site-developement-item">
+                                        <a href="#" class="main-nav-item1-list-link">Мобильные сайты<br>
+                                        <span class="main-nav-item1-small">«Легкий» сайт для мобильных устройств</span></a>
+                                    </li>
+                                </ul>
+                                <h2 class="main-nav-item1-title">Анализ цен конкурентов</h2>
+                                <ul class="rate-shopper-list">
+                                    <li class="rate-shopper-item">
+                                        <a href="#" class="main-nav-item1-list-link">TL: Rate Shopper<br>
+                                        <span class="main-nav-item1-small">Анализ цен конкурентов</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main-nav-item1-col main-nav-item1-col3">
+                                <h2 class="main-nav-item1-title">Аудит и сопровождение</h2>
+                                <ul class="audit-support-list">
+                                    <li class="audit-support-item">
+                                        <a href="#" class="main-nav-item1-list-link">TL: Аналитика<br>
+                                        <span class="main-nav-item1-small">Система сбора и анализа статистики продаж</span></a>
+                                    </li>
+                                    <li class="audit-support-item">
+                                        <a href="#" class="main-nav-item1-list-link">Профессиональный аудит<br>
+                                        <span class="main-nav-item1-small">Анализ ошибок вашего сайта</span></a>
+                                    </li>
+                                    <li class="audit-support-item">
+                                        <a href="#" class="main-nav-item1-list-link">Сопровождение сайта<br>
+                                        <span class="main-nav-item1-small">Техническая поддержка вашего ресурса</span></a>
+                                    </li>
+                                </ul>
+                                <h2 class="main-nav-item1-title">Визовая поддержка</h2>
+                                <ul class="visa-support-list">
+                                    <li class="visa-support-item">
+                                        <a href="#" class="main-nav-item1-list-link">Сервис <span class="main-nav-item1-bold">iVisa</span><br>
+                                        <span class="main-nav-item1-small">Визовая поддержка для ваших гостей</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-nav-item main-nav-item2">
+                        <a href="#" class="main-nav-link">Портфолио</a>
+                        <div class="main-nav-item2-list">
+                            <a href="#" class="main-nav-item2-link">Эксклюзивные сайты</a>
+                            <a href="#" class="main-nav-item2-link">Типовые сайты «TL: Старт»</a>
+                            <a href="#" class="main-nav-item2-link">Мобильные сайты</a>
+                            <a href="#" class="main-nav-item2-link">Интеграции «TravelLine: Отеля»</a>
+                            <a href="#" class="main-nav-item2-link">Работы по сопровождению</a>
+                        </div>
+                    </li>
+                    <li class="main-nav-item main-nav-item3">
+                        <a href="#" class="main-nav-link">Отзывы</a>
+                    </li>
+                    <li class="main-nav-item main-nav-item4">
+                        <a href="" class="main-nav-link main-nav-link-current">Блог</a>
+                    </li>
+                    <li class="main-nav-item main-nav-item5">
+                        <a href="#" class="main-nav-link">О компании</a>
+                        <ul class="main-nav-item5-list">
+                            <li><a href="#" class="main-nav-item5-link">Команда</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Работа в TravelLine</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Публикации и статьи</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Дипломы и сертификаты</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Новости</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Мероприятия</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Партнеры</a></li>
+                            <li><a href="#" class="main-nav-item5-link">Другие проекты</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-nav-item main-nav-item6">
+                        <a href="#" class="main-nav-link">Контакты</a>
+                    </li>
+                </ul>
 
-						</div>
-					</li>
-					<li class="li2">
-						<a class="" href="#">Портфолио</a>
-						<div class="li2-list">
-							<a href="#" class="li2-list-elem-link">Эксклюзивные сайты</a>
-							<a href="#" class="li2-list-elem-link">Типовые сайты «TL: Старт»</a>
-							<a href="#" class="li2-list-elem-link">Мобильные сайты</a>
-							<a href="#" class="li2-list-elem-link">Интеграции «TravelLine: Отеля»</a>
-							<a href="#" class="li2-list-elem-link">Работы по сопровождению</a>
-						</div>
-					</li>
-					<li class="li3"><a class="" href="#">Отзывы</a></li>
-					<li class="li4"><a class="current" href="#">Блог</a></li>
-					<li class="li5">
-						<a class="" href="#">О компании</a>
-						<div class="li5-list">
-							<a href="#" class="li5-list-elem-link">Команда</a>
-							<a href="#" class="li5-list-elem-link">Работа в TravelLine</a>
-							<a href="#" class="li5-list-elem-link">Публикации и статьи</a>
-							<a href="#" class="li5-list-elem-link">Дипломы и сертификаты</a>
-							<a href="#" class="li5-list-elem-link">Новости</a>
-							<a href="#" class="li5-list-elem-link">Мероприятия</a>
-							<a href="#" class="li5-list-elem-link">Партнеры</a>
-							<a href="#" class="li5-list-elem-link">Другие проекты</a>
-						</div>
-					</li>
-					<li class="li6"><a class="" href="#">Контакты</a></li>
-				</ul>
 				<div class="user-block">
-					<a class="login" href="#">Вход</a>
-					<a class="partner" href="#">Стать партнером</a>
+					<a class="user-block-link user-block-link-login" href="#">Вход</a>
+					<a class="user-block-link user-block-link-partner" href="#">Стать партнером</a>
 				</div>
 			</nav>
 		</div>
 	</header>
 
 	<main class="main-index">
-		<div class="main-header">
+		<div class="main-index-header">
 			<div class="container">
 				<ul class="breadcrumbs">
-					<li><a class="" href="#">Главная</a></li>
-					<li><a class="current">Блог</a></li>
+					<li class="breadcrumbs-item"><a class="breadcrumbs-link" href="#">Главная</a></li>
+					<li class="breadcrumbs-item"><a class="breadcrumbs-link breadcrumbs-link-current">Блог</a></li>
 				</ul>
-				<h1>Блог успешных отельеров</h1>
-				<ul class="blog-nav">
-					<li><a class="current" href="">Все разделы</a></li>
-					<li><a class="" href="#">Больше броней</a></li>
-					<li><a class="" href="#">Ценовая политика</a></li>
-					<li><a class="" href="#">Продвижение</a></li>
-					<li><a class="" href="#">Конкурсы и акции</a></li>
-					<li><a class="" href="#">Выставки и семинары</a></li>
-					<li><a class="" href="#">Жизнь TL</a></li>
-					<li><a class="" href="#">Поздравления</a></li>
+				<h1 class="main-index-header-h1">Блог успешных отельеров</h1>
+				<ul class="blog-nav-list">
+					<li class="blog-nav-item"><a class="blog-nav-link blog-nav-link-current" href="">Все разделы</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Больше броней</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Ценовая политика</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Продвижение</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Конкурсы и акции</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Выставки и семинары</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Жизнь TL</a></li>
+					<li class="blog-nav-item"><a class="blog-nav-link" href="#">Поздравления</a></li>
 				</ul>
 			</div>
 		</div>
@@ -165,17 +190,17 @@
 					<div class="post-header">
 						<img src="images/china-friendly-oteli-v-moskve-i-peterburge.jpg" width="694" height="435">
 						<div class="post-header-overlay">
-							<h2><a href="#">Подборка новостей «China friendly-отелей в Москве и Петербурге стало еще больше»</a></h2>
-							<div class="post-header-info">
-								<time datetime="2016-05-20 00:00">20.05.2016</time>
-								<a href="#" class="author">Евгений Кузьминых</a>
-								<span class="category-tag"><a href="#">Больше броней</a></span>
+							<h2 class="post-title"><a class="post-title-link" href="#">Подборка новостей «China friendly-отелей в Москве и Петербурге стало еще больше»</a></h2>
+							<div class="post-info">
+								<time class="post-info-time" datetime="2016-05-20 00:00">20.05.2016</time>
+								<a class="post-info-link post-info-author" href="#">Евгений Кузьминых</a>
+								<span class="post-info-category-tag"><a class="post-info-link" href="#">Больше броней</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="post-main">
-						<p>Начну подборку с нерядовой новости. Знаменитый футурист Фейт Попкорн определил <a href="#" target="_blank">тренды для отелей</a> будущих десятилетий. К воплощению некоторых из них приступят отели сети InterContinental Hotels Group.</p>
-						<p>Ну а теперь о более приземленных и насущных вещах. Например, уже <a href="#" target="_blank">20 московских отелей</a> готовы к приему туристов из Китая. <a href="#">Читать дальше…</a></p>						
+						<p class="post-paragraph">Начну подборку с нерядовой новости. Знаменитый футурист Фейт Попкорн определил <a class="post-link" href="#" target="_blank">тренды для отелей</a> будущих десятилетий. К воплощению некоторых из них приступят отели сети InterContinental Hotels Group.</p>
+						<p class="post-paragraph">Ну а теперь о более приземленных и насущных вещах. Например, уже <a class="post-link" href="#" target="_blank">20 московских отелей</a> готовы к приему туристов из Китая. <a class="post-link" href="#">Читать дальше…</a></p>
 					</div>
 					<div class="post-footer clearfix">
 						<div class="tags">
@@ -184,27 +209,27 @@
 							<a href="#" class="post-tag">Отель</a>,
 							<a href="#" class="post-tag">Подборка новостей</a>
 						</div>
-						<span class="share"><a href="#"><img src="images/share-icons.png" width="88" height="16" alt=""></a></span>
-						<span class="comments"><a href="#" class="comments-link">Комментариев: 0</a></span>
+						<div class="share42init"></div>
+						<span class="post-comments"><a href="#" class="post-comments-link">Комментариев: 0</a></span>
 					</div>
 				</article>
 
 				<article class="post post_4">
 					<div class="post-header">
-						<img src="images/zagruzka-cen-na-god-vpered.jpg" width="694" height="435">
+						<img src="images/zagruzka-cen-na-god-vpered.jpg" width="694" height="429">
 						<div class="post-header-overlay">
-							<h2><a href="#">Почему отелю нужно открыть продажи на год вперед</a></h2>
-							<div class="post-header-info">
-								<time datetime="2016-05-19 00:00">19.05.2016</time>
-								<a href="#" class="author">Екатерина Казанцева</a>
-								<span class="category-tag"><a href="#">Больше броней</a></span>
+							<h2 class="post-title"><a class="post-title-link" href="#">Почему отелю нужно открыть продажи на год вперед</a></h2>
+							<div class="post-info">
+								<time class="post-info-time" datetime="2016-05-19 00:00">19.05.2016</time>
+								<a class="post-info-link post-info-author" href="#">Екатерина Казанцева</a>
+								<span class="post-info-category-tag"><a class="post-info-link" href="#">Больше броней</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="post-main">
-						<p>У Booking.com есть хорошая традиция — напоминать своим клиентам, что открывать продажи нужно минимум на один год вперед. Мы с аналитиками TravelLine решили проверить, все ли гостиницы следуют этому совету.Готовьтесь увидеть много цифр. :)</p>
-						<h3>Ранних броней — на 5 миллиардов</h3>
-						<p>Количество ранних бронирований у наших клиентов — 201 899. Общая стоимость этих броней составила больше 5 329 млн рублей. <a href="#">Читать дальше…</a></p>						
+						<p class="post-paragraph">У Booking.com есть хорошая традиция — напоминать своим клиентам, что открывать продажи нужно минимум на один год вперед. Мы с аналитиками TravelLine решили проверить, все ли гостиницы следуют этому совету. Готовьтесь увидеть много цифр. :)</p>
+						<h3 class="post-main-h3">Ранних броней — на 5 миллиардов</h3>
+						<p class="post-paragraph">Количество ранних бронирований у наших клиентов — 201 899. Общая стоимость этих броней составила больше 5 329 млн рублей. <a class="post-link" href="#">Читать дальше…</a></p>
 					</div>
 					<div class="post-footer clearfix">
 						<div class="tags">
@@ -214,50 +239,50 @@
 							<a href="#" class="post-tag">ценовая политика</a>,
 							<a href="#" class="post-tag">цены</a>
 						</div>
-						<span class="share"><a href="#"><img src="images/share-icons.png" width="88" height="16" alt=""></a></span>
-						<span class="comments"><a href="#" class="comments-link">Комментариев: 0</a></span>
+						<div class="share42init"></div>
+						<span class="post-comments"><a href="#" class="post-comments-link">Комментариев: 0</a></span>
 					</div>
 				</article>
 
 				<article class="post post_3">
 					<div class="post-header">
-						<img src="images/9-may-2016-travelline.jpg" width="694" height="435">
+						<img src="images/9-may-2016-travelline.jpg" width="694" height="424">
 						<div class="post-header-overlay">
-							<h2><a href="#">С Днем Победы!</a></h2>
-							<div class="post-header-info">
-								<time datetime="2016-05-06 00:00">06.05.2016</time>
-								<a href="#" class="author">Александр Галочкин</a>
-								<span class="category-tag"><a href="#">Поздравления</a></span>
+							<h2 class="post-title"><a class="post-title-link" href="#">С Днем Победы!</a></h2>
+							<div class="post-info">
+								<time class="post-info-time" datetime="2016-05-06 00:00">06.05.2016</time>
+								<a class="post-info-link post-info-author" href="#">Александр Галочкин</a>
+								<span class="post-info-category-tag"><a class="post-info-link" href="#">Поздравления</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="post-main">
-						<p>С наступающим Днем Победы! <a href="#">Читать дальше…</a></p>						
+						<p class="post-paragraph">С наступающим Днем Победы! <a class="post-link" href="#">Читать дальше…</a></p>
 					</div>
 					<div class="post-footer clearfix">
 						<div class="tags">
 							<a href="#" class="post-tag">День Победы</a>,
 							<a href="#" class="post-tag">Праздники</a>
 						</div>
-						<span class="share"><a href="#"><img src="images/share-icons.png" width="88" height="16" alt=""></a></span>
-						<span class="comments"><a href="#" class="comments-link">Комментариев: 0</a></span>
+						<div class="share42init"></div>
+						<span class="post-comments"><a href="#" class="post-comments-link">Комментариев: 0</a></span>
 					</div>
 				</article>
 
 				<article class="post post_2">
 					<div class="post-header">
-						<img src="images/zagruzki-na-maiskie-prazdniki-moskva-peterburg.jpg" width="694" height="435">
+						<img src="images/zagruzki-na-maiskie-prazdniki-moskva-peterburg.jpg" width="694" height="428">
 						<div class="post-header-overlay">
-							<h2><a href="#">Подборка новостей «Люксовые отели Москвы и Петербурга побили рекорд по загрузке на майские праздники»</a></h2>
-							<div class="post-header-info">
-								<time datetime="2016-04-29 00:00">29.04.2016</time>
-								<a href="#" class="author">Евгений Кузьминых</a>
-								<span class="category-tag"><a href="#">Больше броней</a></span>
+							<h2 class="post-title"><a class="post-title-link" href="#">Подборка новостей «Люксовые отели Москвы и Петербурга побили рекорд по загрузке на майские праздники»</a></h2>
+							<div class="post-info">
+								<time class="post-info-time" datetime="2016-04-29 00:00">29.04.2016</time>
+								<a class="post-info-link post-info-author" href="#">Евгений Кузьминых</a>
+								<span class="post-info-category-tag"><a class="post-info-link" href="#">Больше броней</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="post-main">
-						<p>Специально для вас выпускаю подборку интересных новостей за последние три недели. Немного полезного чтива на майские каникулы. :) <a href="#">Читать дальше…</a></p>
+						<p class="post-paragraph">Специально для вас выпускаю подборку интересных новостей за последние три недели. Немного полезного чтива на майские каникулы. :) <a class="post-link" href="#">Читать дальше…</a></p>
 					</div>
 					<div class="post-footer clearfix">
 						<div class="tags">
@@ -266,25 +291,25 @@
 							<a href="#" class="post-tag">Отель</a>,
 							<a href="#" class="post-tag">Подборка новостей</a>
 						</div>
-						<span class="share"><a href="#"><img src="images/share-icons.png" width="88" height="16" alt=""></a></span>
-						<span class="comments"><a href="#" class="comments-link">Комментариев: 0</a></span>
+						<div class="share42init"></div>
+						<span class="post-comments"><a href="#" class="post-comments-link">Комментариев: 0</a></span>
 					</div>
 				</article>
 
 				<article class="post post_1">
 					<div class="post-header">
-						<img src="images/china-friendly-oteli-v-moskve-i-peterburge.jpg" width="694" height="435">
+						<img src="images/travelline-mitt-2016.jpg" width="694" height="388">
 						<div class="post-header-overlay">
-							<h2><a href="#">Видео с MITT-2016 + Советы отельерам до конца года</a></h2>
-							<div class="post-header-info">
-								<time datetime="2016-04-22 00:00">22.04.2016</time>
-								<a href="#" class="author">Евгений Кузьминых</a>
-								<span class="category-tag"><a href="#">Больше броней</a>, <a href="">Выставки и семинары</a></span>
+							<h2 class="post-title"><a class="post-title-link" href="#">Видео с MITT-2016 + Советы отельерам до конца года</a></h2>
+							<div class="post-info">
+								<time class="post-info-time" datetime="2016-04-22 00:00">22.04.2016</time>
+								<a class="post-info-link post-info-author" href="#">Евгений Кузьминых</a>
+								<span class="post-info-category-tag"><a class="post-info-link" href="#">Больше броней</a>, <a class="post-info-link" href="#">Выставки и семинары</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="post-main">
-						<p>Прошел ровно месяц с того момента, как стартовал MITT–2016. Мероприятие уже который год объединяет людей гостиничной индустрии. И судя по растущим масштабам, будет собирать вокруг себя еще больше профи. Предлагаю взглянуть на эту выставку глазами TravelLine: <a href="#">Читать дальше…</a></p>
+						<p class="post-paragraph">Прошел ровно месяц с того момента, как стартовал MITT–2016. Мероприятие уже который год объединяет людей гостиничной индустрии. И судя по растущим масштабам, будет собирать вокруг себя еще больше профи. Предлагаю взглянуть на эту выставку глазами TravelLine: <a class="post-link" href="#">Читать дальше…</a></p>
 					</div>
 					<div class="post-footer clearfix">
 						<div class="tags">
@@ -293,105 +318,78 @@
 							<a href="#" class="post-tag">Выставки</a>,
 							<a href="#" class="post-tag">онлайн-продажи</a>
 						</div>
-						<span class="share"><a href="#"><img src="images/share-icons.png" width="88" height="16" alt=""></a></span>
-						<span class="comments"><a href="#" class="comments-link">Комментариев: 0</a></span>
+						<div class="share42init"></div>
+						<span class="post-comments"><a href="#" class="post-comments-link">Комментариев: 0</a></span>
 					</div>
 				</article>
 
-				<h2 class="paginator-title">Навигация по записям</h2>
-
-				<ul class="paginator">
-					<li><a href="" class="page current">1</a></li>
-					<li><a href="#" class="page">2</a></li>
-					<li><a href="#" class="page">3</a></li>
-					<li><a href="#" class="page">4</a></li>
-					<li class="page more-pages">...</li>
-					<li><a href="#" class="page">38</a></li>
-					<li><a href="#" class="page">Следующая страница</a></li>
-				</ul>
+				<div class="paginator">
+                    <h2 class="paginator-header">Навигация по записям</h2>
+                    
+                    <ul class="paginator-list">
+                        <li class="paginator-item"><a class="page current">1</a></li>
+                        <li class="paginator-item"><a href="#" class="page">2</a></li>
+                        <li class="paginator-item"><a href="#" class="page">3</a></li>
+                        <li class="paginator-item"><a href="#" class="page">4</a></li>
+                        <li class="paginator-item"><a class="page more-pages">...</a></li>
+                        <li class="paginator-item"><a href="#" class="page">38</a></li>
+                        <li class="paginator-item"><a href="#" class="page">Следующая страница</a></li>
+                    </ul>
+                </div>
 			</div>
 
 			<aside class="sidebar">
-				<form method="post" action="https://echo.htmlacademy.ru" class="sidebar__subscribe" name="sidebar__subscribe">
-					<p>Тренды, новости, кейсы гостиничной индустрии</p>
-					<input type="email" name="subscribe-email" placeholder="Введите email">
-					<button type="submit">Подписаться на блог</button>
-					<i>Нас читают более 1 000 отельеров</i>
+				<form method="post" action="https://echo.htmlacademy.ru" class="subscribe-bar" name="subscribe-bar">
+					<p class="subscribe-bar-title">Тренды, новости, кейсы гостиничной индустрии</p>
+					<input type="email" class="subscribe-email-input" name="subscribe-email" placeholder="Введите email">
+					<button type="submit" class="subscribe-button">Подписаться на блог</button>
+					<i class="subscribe-bar-italic">Нас читают более 1 000 отельеров</i>
 				</form>
 
-				<div class="sidebar__fb">
-					<div class="sidebar__fb-header"></div>
-					<div class="sidebar__fb-share">
-						<p>Станьте первым из друзей, кому это понравилось.
-						<img src="images/sidebar__fb-share.png" width="134" height="32" alt=""></p>
-					</div>
-				</div>
+<div class="fb-page"
+  data-href="https://www.facebook.com/imdb" 
+  data-width="340"
+  data-hide-cover="false"
+  data-show-facepile="true"></div>
 
-				<div class="sidebar__vk">
-					<div class="sidebar__vk-header">
-						<a class="sidebar__vk-group-logo" href="#"></a>
-						<a class="sidebar__vk-group" href="#">TravelLine. Стандарт про...</a>
-						<a class="sidebar__vk-logo" href="#"></a>
-					</div>
-					<div class="sidebar__vk-body">
-						<a class="number-vk-users" href="#">1 133 участника</a>
-						<ul>
-							<li class="vk-person">
-								<p><a href="#"><img src="" width="50" height="50" alt=""><br>Name</a></p>
-							</li>
-							
-							<li class="vk-person">
-								<p><a href="#"><img src="" width="50" height="50" alt=""><br>Name</a></p>
-							</li>
-							
-							<li class="vk-person">
-								<p><a href="#"><img src="" width="50" height="50" alt=""><br>Name</a></p>
-							</li>
+<div class="vk-block">
+<!-- 	<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+	
+	VK Widget
+	<div id="vk_groups"></div>
+	<script type="text/javascript">
+	VK.Widgets.Group("vk_groups", {mode: 0, width: "224", height: "250", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 15867883);
+	</script> -->
+</div>
 
-							<li class="vk-person">
-								<p><a href="#"><img src="" width="50" height="50" alt=""><br>Name</a></p>
-							</li>
-							
-							<li class="vk-person">
-								<p><a href="#"><img src="" width="50" height="50" alt=""><br>Name</a></p>
-							</li>
-							
-							<li class="vk-person">
-								<p><a href="#"><img src="" width="50" height="50" alt=""><br>Name</a></p>
-							</li>
-						</ul>
-						<a class="vk-join" href="#">Подписаться на новости</a>
-					</div>
-				</div>
-
-				<form method="post" action="https://echo.htmlacademy.ru" class="sidebar__search" name="sidebar__search-form">
-					<p>Искать в блоге</p>
-					<input type="search" name="sidebar__search-input" placeholder="Поиск...">
-					<button type="submit"></button>
+				<form method="post" action="https://echo.htmlacademy.ru" class="search-bar" name="search-bar-form">
+					<p class="search-bar-title">Искать в блоге</p>
+					<input type="search" class="search-bar-input" name="search-bar-input" placeholder="Поиск...">
+					<button type="submit" class="search-bar-button"></button>
 				</form>
 
-				<div class="sidebar__popular">
-					<p>Популярные записи</p>
-					<ul>
-						<li>
-							<span>07/08/2014</span>
-							<p><a href="#">Свершилось! TravelLine стал резидентом «Сколково»</a></p>
+				<div class="popular-bar">
+					<p class="popular-bar-title">Популярные записи</p>
+					<ul class="popular-bar-list">
+						<li class="popular-bar-item">
+							<span class="popular-bar-post-date">07/08/2014</span><br>
+							<a class="popular-bar-post-link" href="#">Свершилось! TravelLine стал резидентом «Сколково»</a>
 						</li>
-						<li>
-							<span>24/07/2015</span>
-							<p><a href="#">Без чего нельзя продвигать отель в «Инстаграме»?</a></p>
+						<li class="popular-bar-item">
+							<span class="popular-bar-post-date">24/07/2015</span><br>
+							<a class="popular-bar-post-link" href="#">Без чего нельзя продвигать отель в «Инстаграме»?</a>
 						</li>
-						<li>
-							<span>05/08/2015</span>
-							<p><a href="#">Email-рассылка отеля: на что обратить внимание</a></p>
+						<li class="popular-bar-item">
+							<span class="popular-bar-post-date">05/08/2015</span><br>
+							<a class="popular-bar-post-link" href="#">Email-рассылка отеля: на что обратить внимание</a>
 						</li>
-						<li>
-							<span>25/06/2015</span>
-							<p><a href="#">Строим динамическое ценообразование в отеле</a></p>
+						<li class="popular-bar-item">
+							<span class="popular-bar-post-date">25/06/2015</span><br>
+							<a class="popular-bar-post-link" href="#">Строим динамическое ценообразование в отеле</a>
 						</li>
-						<li>
-							<span>26/10/2015</span>
-							<p><a href="#">Как отелю построить несовременную стратегию продаж: античек-...</a></p>
+						<li class="popular-bar-item">
+							<span class="popular-bar-post-date">26/10/2015</span><br>
+							<a class="popular-bar-post-link" href="#">Как отелю построить несовременную стратегию продаж: античек-...</a>
 						</li>
 					</ul>
 				</div>
@@ -400,61 +398,61 @@
 	</main>
 	
 
-	<footer>
+	<footer class="main-footer">
 		<div class="top-footer">
 			<div class="container clearfix">
-				<div class="column1">
-					<h4><a href="#">Продукты и услуги</a></h4>
+				<div class="column">
+					<h4 class="top-footer-h4"><a class="top-footer-h4" href="#">Продукты и услуги</a></h4>
 					<ul>
-						<li><a href="#">TL: Отель</a></li>
-						<li><a href="#">TL: Channel Manager</a></li>
-						<li><a href="#">TL: Rate Shopper</a></li>
-						<li><a href="#">Эксклюзивные сайты</a></li>
-						<li><a href="#">Типовые сайты «TL: Старт»</a></li>
-						<li><a href="#">Мобильные сайты</a></li>
-						<li><a href="#">Сервис iVisa</a></li>
-						<li><a href="#">TL: Аналитика</a></li>
-						<li><a href="#">Профессиональный аудит</a></li>
-						<li><a href="#">Сопровождение сайта</a></li>
-						<li><a href="#">FAQ</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">TL: Отель</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">TL: Channel Manager</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">TL: Rate Shopper</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Эксклюзивные сайты</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Типовые сайты «TL: Старт»</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Мобильные сайты</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Сервис iVisa</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">TL: Аналитика</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Профессиональный аудит</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Сопровождение сайта</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">FAQ</a></li>
 					</ul>
 				</div>
-				<div class="column2">
-					<h4><a href="#">Портфолио</a></h4>
+				<div class="column">
+					<h4 class="top-footer-h4"><a class="top-footer-h4" href="#">Портфолио</a></h4>
 					<ul>
-						<li><a href="#">Эксклюзивные сайты</a></li>
-						<li><a href="#">Типовые сайты «TL: Старт»</a></li>
-						<li><a href="#">Мобильные сайты</a></li>
-						<li><a href="#">Интеграции «TravelLine: Отеля»</a></li>
-						<li><a href="#">Работы по сопровождению</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Эксклюзивные сайты</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Типовые сайты «TL: Старт»</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Мобильные сайты</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Интеграции «TravelLine: Отеля»</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Работы по сопровождению</a></li>
 					</ul>
-					<h4>Партнерам</h4>
+					<h4 class="top-footer-h4">Партнерам</h4>
 					<ul>
-						<li><a href="#">Корпоративным покупателям</a></li>
-						<li><a href="#">Системам онлайн-бронирования (OTA)</a></li>
-						<li><a href="#">Туроператорам</a></li>
-						<li><a href="#">Разработчикам</a></li>
-					</ul>
-				</div>
-				<div class="column3">
-					<h4><a href="#">О компании</a></h4>
-					<ul>
-						<li><a href="#">Команда</a></li>
-						<li><a href="#">Работа в TravelLine</a></li>
-						<li><a href="#">Стажировка в TravelLine</a></li>
-						<li><a href="#">Публикации и статьи</a></li>
-						<li><a href="#">Дипломы и сертификаты</a></li>
-						<li><a href="#">Новости</a></li>
-						<li><a href="#">Партнеры</a></li>
-						<li><a href="#">Другие проекты</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Корпоративным покупателям</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Системам онлайн-бронирования (OTA)</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Туроператорам</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Разработчикам</a></li>
 					</ul>
 				</div>
-				<div class="column4">
-					<h4><a href="#">Контакты</a></h4>
+				<div class="column">
+					<h4 class="top-footer-h4"><a class="top-footer-h4" href="#">О компании</a></h4>
 					<ul>
-						<li class="bottom-phone">+7 800 555-20-30</li>
-						<li class="bottom-email">Email: <a href="mailto:info@travelline.ru">info@travelline.ru</a></li>
-						<li class="bottom-to-partner"><a href="#">Вход для партнеров</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Команда</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Работа в TravelLine</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Стажировка в TravelLine</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Публикации и статьи</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Дипломы и сертификаты</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Новости</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Партнеры</a></li>
+						<li class="column-item"><a class="top-footer-link" href="#">Другие проекты</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<h4 class="top-footer-h4"><a class="top-footer-h4" href="#">Контакты</a></h4>
+					<ul class="column-contacts-list">
+						<li class="column-contacts-item bottom-phone">+7 800 555-20-30</li>
+						<li class="column-contacts-item bottom-email">Email: <a class="top-footer-link" href="mailto:info@travelline.ru">info@travelline.ru</a></li>
+						<li class="column-contacts-item bottom-to-partner"><a class="top-footer-link" href="#">Вход для партнеров</a></li>
 					</ul>
 				</div>
 			</div>
@@ -463,30 +461,33 @@
 			<div class="container clearfix">
 				<div class="copyright">© TravelLine. 2008—2016</div>
 				<ul class="social">
-					<li><a class="social-button fb" href="#">fb</a></li>
-					<li><a class="social-button tw" href="#">tw</a></li>
-					<li><a class="social-button vk" href="#">vk</a></li>
-					<li><a class="social-button ok" href="#">ok</a></li>
-					<li><a class="social-button gplus" href="#">g+</a></li>
-					<li><a class="social-button youtube" href="#">yt</a></li>
-					<li><a class="social-button instagram" href="#">ig</a></li>
-					<li><a class="social-button ss" href="#">ss</a></li>
-					<li><a class="social-button linkedin" href="#">in</a></li>
+					<li class="social-item"><a class="social-button fb" href="#">fb</a></li>
+					<li class="social-item"><a class="social-button tw" href="#">tw</a></li>
+					<li class="social-item"><a class="social-button vk" href="#">vk</a></li>
+					<li class="social-item"><a class="social-button ok" href="#">ok</a></li>
+					<li class="social-item"><a class="social-button gplus" href="#">g+</a></li>
+					<li class="social-item"><a class="social-button youtube" href="#">yt</a></li>
+					<li class="social-item"><a class="social-button instagram" href="#">ig</a></li>
+					<li class="social-item"><a class="social-button ss" href="#">ss</a></li>
+					<li class="social-item"><a class="social-button linkedin" href="#">in</a></li>
 				</ul>
 				<div class="counter">
-					<a href="http://yandex.ru/cy?base=0&amp;host=www.travelline.ru" rel="nofollow" target="_blank"><img src="http://yandex.ru/cycounter?www.travelline.ru" width="88" height="31" alt="ТИЦ портала TravelLine.ru - онлайн-бронирование гостиниц" border="0"></a>
+					<a href="http://yandex.ru/cy?base=0&amp;host=www.travelline.ru" rel="nofollow" target="_blank"><img src="http://yandex.ru/cycounter?www.travelline.ru" width="88" height="31" alt="ТИЦ портала TravelLine.ru - онлайн-бронирование гостиниц" border="0"><!-- <img src="" width="88" height="31" border="0">--></a>
 				</div>
-				<div class="compability">
-					<img src="images/windows.png" width="57" height="72" alt="">
-					<p>Платформа TravelLine<br>
+				<div class="compability clearfix">
+					<img class="compability-img" src="images/windows.png" width="57" height="72" alt="">
+					<p class="compability-p">Платформа TravelLine<br>
 					совместима с<br>
-					<span>Windows Server ® 2012</span></p>
+					<span class="compability-span">Windows Server ® 2012</span></p>
 				</div>
 			</div>
 		</div>
 	</footer>
 
-  <script type="text/javascript" src="js/script.js"></script>
+    <!-- <div class="overlay"></div> -->
+
+    <script type="text/javascript" src="js/share42.js"></script>
+    <script type="text/javascript" src="js/script.min.js"></script>
 
 </body>
 </html>
