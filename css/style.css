@@ -161,11 +161,11 @@ ul {
   background-position: 0 -114px;
 }
 
-.main-nav {
+.main-nav,
+.main-nav-products:hover .products-list, 
+.main-nav-portfolio:hover .main-nav-drop-down,
+.main-nav-about:hover .main-nav-drop-down {
   display: block;
-  /*background-image: linear-gradient(to top, #fefefe, #eff0f0);
-тут еще вопрос
-  */
 }
 
 .main-nav-list {
@@ -180,7 +180,6 @@ ul {
   position: relative;
   padding-bottom: 0;
   margin-bottom: 0;
-  /*margin-left: -4px;*/
 }
 
 .navgray {
@@ -232,7 +231,7 @@ ul {
 
 .products-list {
   position: absolute;
-  top: 45px;
+  top: 46px;
   left: 0;
   z-index: 2;
   display: none;
@@ -240,6 +239,7 @@ ul {
   padding: 0 5px 15px 15px;
   background: #ffffff;
   border: 1px solid #babdc9;
+  border-top-color: transparent;
 }
 
 .products-col {
@@ -339,29 +339,21 @@ ul {
   background-position: 0 -270px;
 }
 
-.main-nav-products:hover .products-list {
-  display: block;
-}
-
 .main-nav-drop-down {
   position: absolute;
-  top: 45px;
+  top: 46px;
   left: 0;
   z-index: 2;
   display: none;
   width: 230px;
   padding: 15px;
   background: #ffffff;
-  box-shadow: 0 30px 50px -15px rgba(0, 0, 0, 0.5);
+  border: 1px solid #babdc9;
+  border-top-color: transparent;
 }
 
 .main-nav-about .main-nav-drop-down {
   width: 185px;
-}
-
-.main-nav-portfolio:hover .main-nav-drop-down,
-.main-nav-about:hover .main-nav-drop-down {
-  display: block;
 }
 
 .main-nav-drop-down-link {
@@ -438,7 +430,7 @@ ul {
 }
 
 .breadcrumbs {
-  margin-left: 3px;
+  margin: 0 0 33px 3px;
 }
 
 .breadcrumbs-item {
@@ -479,7 +471,7 @@ ul {
 }
 
 .main-index-header-h1 {
-  margin: 33px 0 16px 2px;
+  margin: 0 0 16px 2px;
 }
 
 .blog-nav-list {
@@ -700,8 +692,8 @@ ul {
   left: 0;
   width: 16px;
   height: 16px;
-  /*background-color: #ccc;*/
-  background-image: url(../images/share42icons.png);
+  background-color: #ccc;
+  background-image: url(../images/share-icons.png);
   background-position: 0 0;
 }
 
@@ -710,19 +702,24 @@ ul {
 }
 
 .share-icon-tw:before {
-  background-position: -16px 0;
+  background-position: -19px 0;
 }
 
 .share-icon-vk:before {
-  background-position: -32px 0;
+  background-position: -39px 0;
 }
 
 .share-icon-gplus:before {
-  background-position: -48px 0;
+  background-position: -58px 0;
+}
+
+.share-ok .share-icon-ok {
+  width: 10px;
 }
 
 .share-icon-ok:before {
-  background-position: -64px 0;
+  width: 10px;
+  background-position: -77px 0;
 }
 
 .share-counter {
@@ -938,26 +935,19 @@ ul {
 /*footer*/
 
 .top-footer {
-  padding: 25px 30px 0 60px;
+  padding: 36px 0 0 0;
   color: #ffffff;
   background: #0d4281;
 }
 
-.top-footer .column,
-.bottom-footer .copyright,
-.bottom-footer .social,
-.bottom-footer .counter,
-.bottom-footer .compability {
-  float: left;
-}
-
 .top-footer .column {
-  width: 23%;
-  padding: 0 1%;
+  float: left;
+  width: 220px;
+  margin-left: 20px;
 }
 
 .top-footer-h4 {
-  margin: 12px 0 0 0;
+  margin-bottom: 6px;
   font-weight: 400;
   font-size: 18px;
   font-family: "Franklin Gothic Book", Arial, sans-serif;
@@ -970,6 +960,8 @@ ul {
 }
 
 .top-footer-link {
+  display: inline-block;
+  margin-bottom: 2px;
   font-size: 11px;
   line-height: 16px;
   color: #a8c5ff;
@@ -978,6 +970,10 @@ ul {
 
 .top-footer-link:hover {
   text-decoration: none;
+}
+
+.column-contacts .top-footer-h4 {
+  margin-bottom: 14px;
 }
 
 .column-contacts-item {
@@ -1021,13 +1017,21 @@ ul {
   background: #0d4281 url(../images/footer-bg.png); 
 }
 
+.bottom-footer .copyright,
+.bottom-footer .social,
+.bottom-footer .counter,
+.bottom-footer .compability {
+  float: left;
+}
+
 .bottom-footer .container{
-  padding: 28px 30px 25px 15px;
+  padding: 21px 22px 25px 20px;
 }
 
 .bottom-footer .copyright {
-  width: 230px;
+  width: 150px;
   height: 46px;
+  margin-right: 90px;
   padding-top: 30px;
   font: 11px Tahoma, 'Geneva CY', sans-serif;
   color: #4858a8;
@@ -1035,13 +1039,14 @@ ul {
 }
 
 .bottom-footer .social {
-  margin-right: 80px;
+  margin-right: 74px;
+  padding-top: 6px;
   font-size: 0;
 }
 
 .bottom-footer .social-item {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .bottom-footer .social-button {
@@ -1125,6 +1130,10 @@ ul {
   background-position: -102px -27px;
 }
 
+.bottom-footer .counter {
+  padding-top: 5px;
+}
+
 .bottom-footer .compability {
   float: right;
   width: 210px;
@@ -1140,7 +1149,7 @@ ul {
 
 .bottom-footer .compability-p {
   position: relative;
-  top: 10px;
+  top: 12px;
 }
 
 .bottom-footer .compability-span {
